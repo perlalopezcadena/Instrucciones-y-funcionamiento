@@ -25,6 +25,22 @@ npm start
 "content-Type: aplication/json" \
 '{ truck";"direccion", "laplaya":1, "destinatarioid":2,"status":" pending"}'
 
+-- estructura del proyecto
+/project
+ ├── server.js
+ ├── models
+ │    ├── index.js        # Configuración Sequelize
+ │    ├── Location.js     # Modelo Location
+ │    └── Order.js        # Modelo Order
+ ├── routes
+ │    ├── locations.js    # Rutas CRUD Locations
+ │    └── orders.js       # Rutas CRUD Orders
+ └── controllers
+      ├── locationController.js
+      └── orderController.js
+
+
+
 
 
  
