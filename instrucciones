@@ -1,4 +1,30 @@
 -- paso 1  clona el repositorio.
-   nos muestra la clonación de dicho repositorio 
+ nos muestra la clonación de dicho repositorio 
 
-git clone 
+git clone  https://github.com/perlalopezcadena/Instrucciones-y-funcionamiento/edit/main/instrucciones
+cd crud-location-orders
+
+-- paso 2 instala dependencias
+npm install
+
+-- paso 3 se debe configurar la base de datos
+const sequelize = new Sequelize('crud_perla'), 'root', 'password', {
+  host: 'localhost',
+  dialect: 'postgres',
+
+--paso 4 levantar el servidor
+
+npm start
+
+--paso 5 ordenes
+-- crear una orden  post-api-orders
+-- listar una orden con una locations  get-api-orders
+-- actualizar la orden put-api-orders-id
+-- eliminar ordenes delete-api-orders-id 
+
+"content-Type: aplication/json" \
+'{ truck";"direccion", "laplaya":1, "destinatarioid":2,"status":" pending"}'
+
+
+
+ 
